@@ -1,6 +1,5 @@
 <div align="center">
-
-    <h1> <img src="https://s2.loli.net/2024/05/10/nrGPpO6HDkQht9S.png" alt="Wanglanhuajiaofen" style="width: 60px"> ShiCui</h1>
+    <h1> <img src="https://s2.loli.net/2024/05/10/nrGPpO6HDkQht9S.png" alt="Wanglanhuajiaofen" style="width: 60px"> ShiCui <h1>
 
 [![GitHub release](https://img.shields.io/badge/release-v1.0.0-blue?logo=github)](https://github.com/WangLanHuaJiaoFen/ShiCui/releases/latest)
 [![bilibili](https://img.shields.io/badge/bilibili-page-pink?logo=bilibili)](https://github.com/WangLanHuaJiaoFen/ShiCui/releases/latest)
