@@ -81,7 +81,9 @@ class _GeneratorPageState extends State<GeneratorPage> {
               children: [
                 ElevatedButton.icon(
                   onPressed: () {
-                    if (appState.currentSentence.content != "请求过快啦，稍微等一等吧") {
+                    if (appState.currentSentence.content != "请求过快啦，稍微等一等吧"
+                      && !appState.favoritePair.contains(appState.currentSentence)
+                    ) {
                       appState.addDislikePair();
                     }
                   }, 
@@ -91,7 +93,9 @@ class _GeneratorPageState extends State<GeneratorPage> {
                 SizedBox(width: 10,), 
                 ElevatedButton.icon(
                   onPressed: () {
-                    if (appState.currentSentence.content != "请求过快啦，稍微等一等吧") {
+                    if (appState.currentSentence.content != "请求过快啦，稍微等一等吧"
+                      && !appState.dislikePair.contains(appState.currentSentence)
+                    ) {
                       appState.addFavoritePair();
                     }
                 }, 
